@@ -88,6 +88,19 @@ public:
         return getScheduler().spinOnce();
     }
 
+
+
+
+
+
+    // HERE LIES THE SOLUTION TO ALL OF OUR PROBLEMS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    // YUSUF YORUM
+
+
+
+
+
+
     /**
      * This method allows to directly transmit a raw CAN frame circumventing the whole UAVCAN stack.
      * Mandatory parameters:
