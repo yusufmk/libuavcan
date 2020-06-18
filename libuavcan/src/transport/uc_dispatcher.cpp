@@ -218,6 +218,10 @@ void Dispatcher::notifyRxFrameListener(const CanRxFrame& can_frame, CanIOFlags f
 }
 #endif
 
+// YUSUF !!!!!!!!!!!!!!!1
+// Can'den gelen mesajlar burada siniflandirilarak
+// uavcan handleFrame() fonksiyonu bypass edilebilir.
+// boylece zamandan tasarruf edilmis olur. gereksiz yere islem yapmaz.
 int Dispatcher::spin(MonotonicTime deadline)
 {
     int num_frames_processed = 0;
